@@ -7,7 +7,7 @@ const Home = () => {
         <title>Home</title>
       </Helmet>
       <div>
-        <h2>Home page</h2>
+        <h2 className="text-green-700 text-3xl">Home page</h2>
       </div>
     </>
   );
