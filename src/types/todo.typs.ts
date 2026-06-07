@@ -1,7 +1,7 @@
 export interface TODO{
     id: number;
     text: string;
-    complete: boolean;
+    completed: boolean;
 }
 
 export type TODOSTATE = {
