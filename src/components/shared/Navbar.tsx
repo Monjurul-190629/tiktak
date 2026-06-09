@@ -42,6 +42,15 @@ const Navbar = () => {
 
             <NavigationMenuItem>
               <NavigationMenuLink
+                href="/caching"
+                className={navigationMenuTriggerStyle()}
+              >
+                Caching
+              </NavigationMenuLink>
+            </NavigationMenuItem>
+
+            <NavigationMenuItem>
+              <NavigationMenuLink
                 href="/contact"
                 className={navigationMenuTriggerStyle()}
               >
